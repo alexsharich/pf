@@ -14,6 +14,7 @@ export const Skills = () => {
                     <Skill title={'react'} description={'nwfonw'} />
                     <Skill title={'redux'} description={'meientb'} />
                 </div>
+                
             </div>
         </div>
     )
