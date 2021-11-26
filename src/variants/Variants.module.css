@@ -1,0 +1,9 @@
+.variants {
+    height: 30vh;
+    background-color: chocolate;
+}
+.variantsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}

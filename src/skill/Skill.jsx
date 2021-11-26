@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Skill.module.css'
 
+
 export const Skill = (props) => {
     return (
         <div className={s.skill}>

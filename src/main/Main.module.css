@@ -2,16 +2,7 @@
 height: 100vh;
 background-color: rgb(119, 119, 243);
 }
-/* .container {
-display: flex;
-border: 1px solid black;
-display: flex;
-align-items: center;
-justify-content: space-between;
-height: 100%;
-width: 80%;
-margin: 0 auto;
-} */
+
 .text {
     width: 300px;
 border: 1px solid black;
