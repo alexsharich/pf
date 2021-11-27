@@ -1,14 +1,18 @@
-.footer {
-    height: 50vh;
+.footerBlock {
+   /*  min-height: 50vh; */
 background-color: darkgoldenrod;
+padding: 50px;
 }
-.footerContainer {
+.footerBlock_Container {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.footerInformation {
+.footerBlock_information {
     border: 1px solid black;
-    width: 500px;
-    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }

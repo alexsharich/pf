@@ -1,9 +1,11 @@
-.variants {
-    height: 30vh;
+.variantsBlock {
+   /*  min-height: 30vh; */
     background-color: chocolate;
+    padding: 50px;
 }
-.variantsContainer {
+.variantsBlock_Container {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

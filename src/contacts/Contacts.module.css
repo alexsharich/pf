@@ -1,13 +1,16 @@
-.contacts {
-    height: 100vh;
+.contactsBlock {
+   /*  min-height: 100vh; */
     background-color: crimson;
+    padding: 50px;
 }
-.contactsContainer {
+.contactsBlock_Container {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.form {
+.contacts_form {
     display: flex;
     flex-direction: column;
+    margin: 30px 0;
 }

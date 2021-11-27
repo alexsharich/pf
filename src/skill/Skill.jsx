@@ -4,14 +4,12 @@ import s from './Skill.module.css'
 
 export const Skill = (props) => {
     return (
-        <div className={s.skill}>
-            <div className={s.icon}>
-
-            </div>
+        <div className={s.skillBlock}>
+            <div className={s.skillBlock_icon}></div>
             <h3>{props.title}</h3>
-            <span className={s.description}>
+            <p className={s.skillBlock_description}>
                 {props.description}
-            </span>
+            </p>
         </div>
     )
 }

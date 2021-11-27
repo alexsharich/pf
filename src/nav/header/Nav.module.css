@@ -1,10 +1,10 @@
-.nav{
+.navigationBlock{
 width: 300px;
 border: 1px solid black;
 display: flex;
 justify-content: space-between;
 }
-.nav a {
+.navigationBlock a {
 cursor: pointer;
 text-decoration: none;
 }
