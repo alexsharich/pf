@@ -12,7 +12,6 @@ export const Main = () => {
                     <p>helo world</p>
                 </div>
                 <div className={s.mainBlock_foto}>
-
                 </div>
             </div>
         </div>

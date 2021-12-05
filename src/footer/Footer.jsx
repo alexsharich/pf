@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Footer.module.css'
 import styleContainer from './../common/styles/Container.module.css'
-import {FooterItem} from './footerItem/FooterItem'
+import { FooterItem } from './footerItem/FooterItem'
 
 export const Footer = () => {
     return (
@@ -17,7 +17,6 @@ export const Footer = () => {
                 </div>
                 <span className={s.footerText}>2021</span>
             </div>
-
         </div>
     )
 }
