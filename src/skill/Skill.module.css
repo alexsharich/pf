@@ -13,3 +13,11 @@
     height: 60px;
     background-color: cyan;
 }
+.skillBlock_description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.skillBlock_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}

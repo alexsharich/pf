@@ -2,12 +2,13 @@ import React from "react";
 import s from './Footer.module.css'
 import styleContainer from './../common/styles/Container.module.css'
 import { FooterItem } from './footerItem/FooterItem'
+import { Title } from '../title/Title'
 
 export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${s.footerBlock_Container} ${styleContainer.container}`}>
-                <h2 className={s.footerBlock_title}>Name</h2>
+                <Title title={'Footer'} />
                 <div className={s.footerBlock_information}>
                     <FooterItem />
                     <FooterItem />

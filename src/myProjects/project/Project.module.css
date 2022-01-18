@@ -9,15 +9,39 @@
     margin: 10px 0;
 }
 .projectBlock_imgContainer{
-width: 100%;
-height: 200px;
-background-color: cyan;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        position: relative;
+}
+.projectBlock_imgContainer::before {
+    position:absolute;
+    content: '';
+    background-color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    opacity: 0.3;
+    z-index: 10;
 }
 .projectBlock_projectButton{
-width: 100px;
-height: 50px;
-background-color: cornflowerblue;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    position: relative;
+    z-index: 100;
+}
+.projectBlock_description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.projectBlock_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
