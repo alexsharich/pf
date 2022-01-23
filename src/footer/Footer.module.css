@@ -1,7 +1,6 @@
 .footerBlock {
-   /*  min-height: 50vh; */
-background-color: darkgoldenrod;
-padding: 50px;
+    background-color: darkgoldenrod;
+    padding: 50px;
 }
 .footerBlock_Container {
     align-items: center;

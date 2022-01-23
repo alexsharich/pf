@@ -10,10 +10,10 @@ export const MyProjects = () => {
 
     const first = {
         backgroundImage: `url(${bcgForfirstProject})`,
-      };
-      const second = {
+    };
+    const second = {
         backgroundImage: `url(${bcgForSecondProject})`,
-      };
+    };
 
     return (
         <div className={s.myProjectBlock}>
