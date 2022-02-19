@@ -8,7 +8,7 @@ export const Main = () => {
             <div className={styleContainer.container}>
                 <div className={s.mainBlock_text}>
                     <h6 className={s.mainBlock_preDescription}>Hello world</h6>
-                    <h1 className={s.mainBlock_name}>Hello world</h1>
+                    <h1 className={s.mainBlock_name}>Alexander</h1>
                     <p className={s.mainBlock_description}>helo world</p>
                 </div>
                 <div className={s.mainBlock_foto}>

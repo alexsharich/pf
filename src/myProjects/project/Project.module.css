@@ -1,12 +1,12 @@
 .projectBlock {
     width: 250px;
-    background-color: rgb(199, 92, 114);
-    display: flex;
+    background-color: #272522;
     flex-direction: column;
     align-items: center;
     text-align: center;
     min-height: 300px;
     margin: 10px 0;
+    color:rgb(202, 191, 191);
 }
 .projectBlock_imgContainer{
     width: 100%;
@@ -40,8 +40,14 @@
 .projectBlock_description {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    line-height: 1.8;
+    font-size: 12px;
 }
 .projectBlock_title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.projectInfo {
+    padding: 25px 20px;
 }

@@ -1,6 +1,6 @@
 .footerBlock {
-    background-color: darkgoldenrod;
     padding: 50px;
+    background-color: #272522;
 }
 .footerBlock_Container {
     align-items: center;
@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 .footerBlock_information {
-    border: 1px solid black;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;

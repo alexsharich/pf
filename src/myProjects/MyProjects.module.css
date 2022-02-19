@@ -1,5 +1,5 @@
 .myProjectBlock {
-    background-color: rgb(106, 188, 190);
+    background-color: rgba(0, 0, 0, .9);
     padding: 50px;
 }
 .myProjectBlock_Container {
@@ -11,9 +11,10 @@
     background-color: cornflowerblue;
 }
 .projectBlock_myProjects {
-    border: 1px solid black;
+  
     width: 100%;
     justify-content: space-around;     
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }

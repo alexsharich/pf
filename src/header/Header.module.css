@@ -1,7 +1,10 @@
 .headerBlock {
     height: 80px;
-    background-color: rgb(186, 117, 252);
+    background-color: #272522;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+}
+.headerBlock a {
+   color: #ddd;
 }
