@@ -2,9 +2,18 @@
     width: 300px;
     border: 1px solid black;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin-right: 20px;
 }
 .navigationBlock a {
     cursor: pointer;
+   color: #ddd;
+}
+.navigationBlock a:hover {
+    color: rgb(211, 196, 110);
     text-decoration: none;
+}
+.navigationBlock > .active  {
+    color:  rgb(211, 196, 110);
 }

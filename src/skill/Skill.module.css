@@ -12,7 +12,10 @@
 .skillBlock_icon{
     width: 60px;
     height: 60px;
-    background-color: cyan;
+    background-image: url('../assets/images/js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .skillBlock_description {
     font-family: 'Poppins', sans-serif;

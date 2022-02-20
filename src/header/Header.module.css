@@ -1,10 +1,11 @@
 .headerBlock {
+    width: 100%;
     height: 80px;
     background-color: #272522;
     display: flex;
+    position: fixed;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+
 }
-.headerBlock a {
-   color: #ddd;
-}
+
