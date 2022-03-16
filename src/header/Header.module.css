@@ -4,8 +4,8 @@
     background-color: #272522;
     display: flex;
     position: fixed;
+    z-index: 10;
     align-items: center;
     justify-content: flex-end;
-
 }
 

@@ -23,14 +23,13 @@ export const MyProjects = () => {
                     <Title title={'My Projects'} />
                     <div className={s.projectBlock_myProjects}>
                         <Fade left>
-                            <Project style={first} title={'JS'} description={"blablagdfgn;oefnh;oid"} />
+                            <Project style={first} title={'SocialNetwork'} description={"IT-KAMASUTRA"} />
                         </Fade>
                         <Fade right>
-                            <Project style={second} title={'JS'} description={"blablabla"} />
+                            <Project style={second} title={'Todolist'} description={"Nice todolist with API"} />
                         </Fade>
                     </div>
                 </Fade>
-
             </div>
         </div>
     )

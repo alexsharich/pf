@@ -5,6 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 20px;
+    position: fixed;
+    z-index: 1000;
 }
 .navigationBlock a {
     cursor: pointer;

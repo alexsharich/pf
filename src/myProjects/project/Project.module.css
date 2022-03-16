@@ -7,6 +7,7 @@
     min-height: 300px;
     margin: 10px 0;
     color:rgb(202, 191, 191);
+    border-radius: 5px;
 }
 .projectBlock_imgContainer{
     width: 100%;
