@@ -20,8 +20,7 @@ export const Skills = () => {
                     <Skill title={'NodeJS'} description={'As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.'} />
                     <Skill title={'Rest API'} description={' is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web.'} />
                 </div>
-                </Fade>
-                
+                </Fade>               
             </div>
         </div>
     )
